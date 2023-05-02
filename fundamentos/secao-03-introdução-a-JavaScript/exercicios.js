@@ -22,3 +22,11 @@ if (a > b && a > c){
 } else {
     console.log("O maior número é: " + c);
 }
+
+if (a > 0) {
+    console.log("Positivo");
+} else if (a < 0) {
+    console.log("Negative");
+} else {
+    console.log("Zero");
+}
