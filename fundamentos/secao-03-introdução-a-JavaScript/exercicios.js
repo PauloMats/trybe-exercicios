@@ -13,3 +13,9 @@ div = (a / b);
 mod = (a % b);
 
 console.log(adi, sub, mult, div, mod);
+
+if (a > b){
+    console.log("O maior número é: " + a);
+} else {
+    console.log("O maior número é: " + b);
+}
