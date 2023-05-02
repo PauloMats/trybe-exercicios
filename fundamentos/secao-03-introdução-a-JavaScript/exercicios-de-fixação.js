@@ -1,5 +1,9 @@
-let myName = Mats;
-let birthCity = "Teotônio Vilela";
-let birthYear = 1998;
+let nota = 85;
 
-console.log(myName, birthCity, birthYear);
+if (nota >= 80){
+    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas!");
+} else if (nota < 80 || >= 60){
+    console.log("Você está na nossa lista de espera.");
+} else {
+    console.log("Infelizmente, você reprovou.");
+}
