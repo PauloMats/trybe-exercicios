@@ -1,14 +1,13 @@
-let cliente = "João";
-let saldo = 5000.00;
+let cliente1 = "João";
+let saldo1 = 5000.00;
 
-function trybeBank(cliente) {
-
-    return "Olá,", cliente ,".";
+function trybeBank(cliente){
+    return `Olá ${cliente}` 
 
 };
 function valorBank(saldo){
-    return "Seu saldo é:", saldo,"R$.";
-};
+    return "Seu saldo é: " + saldo + "R$.";
+}
 
-console.log(trybeBank('João'));
-console.log(valorBank("5000,00"));
+console.log(trybeBank(cliente1));
+console.log(valorBank(saldo1));
