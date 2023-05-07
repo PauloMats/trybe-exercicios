@@ -21,10 +21,10 @@ let lado3 = 8;
 function checkIntegerPositive(l1, l2, l3) {
     if (l1 >= 0 && l2 >= 0 && l3 >= 0){
         return true;
-    else {
+    } else {
         return false;
     }
-    }
+    
 }
 
 //-----------------------------------------------------------------------------------------------------------------------
@@ -91,3 +91,4 @@ function infoTriangle(l1, l2, l3){
     checkIntegerPositive(lado1, lado2, lado3);
     checkItsATriangle(lado1, lado2, lado3);
 }
+
