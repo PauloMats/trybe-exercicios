@@ -11,3 +11,8 @@ let player = {
 }
 
 console.log('O Jogador ' + player.name + ' tem ' + player.age + ' anos de idade.');
+
+player.bestInTheWorld = ['[2006, 2007, 2008, 2009, 2010, 2018]'];
+
+console.log('O Jogador ' + player.name + ' foi eleito o melhor do mundo por 6 vezes!' + player['bestInTheWorld']);
+
