@@ -5,3 +5,7 @@ let info = {
   };
 
 console.log('Bem-Vinda, ' + info.personagem);
+
+info['recorrente'] = 'sim';
+
+console.log(info.recorrente);
