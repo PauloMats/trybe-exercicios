@@ -56,3 +56,11 @@ function imprimeIdade() {
    
   let nome = 'Ivan';
   console.log(hello(nome));
+
+ // 🚀 Transforme a função nomeCompleto em uma arrow function.
+
+ const nomeCompleto = (nome, sobrenome) => `Olá ${nome} ${sobrenome}!`
+  
+  let nome = 'Ivan';
+  let sobrenome = 'Pires';
+  console.log(nomeCompleto(nome, sobrenome));
