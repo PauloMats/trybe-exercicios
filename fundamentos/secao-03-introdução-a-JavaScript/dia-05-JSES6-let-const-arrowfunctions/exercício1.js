@@ -49,3 +49,10 @@ function imprimeIdade() {
   const numeroAleatorio = numeroAleatorio => Math.random();
     
   console.log(numeroAleatorio());
+
+  //🚀 Transforme a função hello em uma arrow function.
+
+ const hello = nome => `Olá ${nome}!`
+   
+  let nome = 'Ivan';
+  console.log(hello(nome));
