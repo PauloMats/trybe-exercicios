@@ -1,9 +1,9 @@
-function whereAreYou (){
-
 const whereAreYou = document.getElementById('where-are-you');
 
-return whereAreYou;
+const  parent = whereAreYou.parentElement;
 
-}
+parent.style.color = 'red';
 
-console.log(whereAreYou());
+const firtChild = document.getElementById('first-child-of-child');
+
+firtChild.innerText = 'primeiro filho do filho';
