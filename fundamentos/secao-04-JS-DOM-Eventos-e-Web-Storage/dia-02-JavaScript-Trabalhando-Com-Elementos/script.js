@@ -1,9 +1,6 @@
-const whereAreYou = document.getElementById('where-are-you');
+const irmao = document.createElement('p');
+irmao.innerText = 'criando um irmao';
 
-const  parent = whereAreYou.parentElement;
+const primeiroFilho = document.getElementById('elementoOndeVoceEsta');
 
-parent.style.color = 'red';
-
-const firtChild = document.getElementById('first-child-of-child');
-
-firtChild.innerText = 'primeiro filho do filho';
+primeiroFilho.appendChild(irmao);
