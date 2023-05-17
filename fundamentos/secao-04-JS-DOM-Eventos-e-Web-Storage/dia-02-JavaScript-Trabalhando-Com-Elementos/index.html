@@ -90,7 +90,7 @@
       let ul = document.createElement('ul');
       let numeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
 
-      for(let i = 0; i < numeros.length ; i += 1){
+      for(let i in numeros){
         let li = document.createElement('li');
         li.innerText = numeros[i];
         ul.appendChild(li);
