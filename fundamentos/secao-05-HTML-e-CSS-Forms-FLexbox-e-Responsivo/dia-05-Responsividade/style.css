@@ -90,12 +90,14 @@ body {
 
 @media (min-width: 950px){
   .card:nth-of-type(3){
-    display: block;
+    display: block;scroll-snap-type:
   }
-  
+   
 }
 @media (max-width: 500px) {
   p.trick{
     color: black; 
 }
+
+
 }
