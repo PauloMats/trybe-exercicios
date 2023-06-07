@@ -7,3 +7,13 @@ const somaValores = (acc, curr ) => acc + curr;
 const somaArray = numbers.reduce(somaValores, 0);
 
 console.log(somaArray);
+
+
+/* 
+const sum = (accumulator, number) => (
+  (number % 2 === 0) ? accumulator + number : accumulator
+);
+
+const sumNumbers = (array) => array.reduce(sum, 0);
+
+console.log(sumNumbers(numbers)); */
