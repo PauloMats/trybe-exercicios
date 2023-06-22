@@ -1,6 +1,5 @@
-
 const myList = [5, 2, 3];
 
-const swap = (myList) => { myList.reverse() };
+const swap = ([5,2,3]) => { ({ a, b, c } = myList) };
 
-console.log(reverse())
+console.log(swap(myList));
