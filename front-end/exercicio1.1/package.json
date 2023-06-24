@@ -1,0 +1,19 @@
+{
+  "name": "trybe-exercicios",
+  "version": "1.0.0",
+  "description": "Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Paulo Mateus - (Mats) ](https://www.linkedin.com/in/paulomatsdevfulluxui/)_ enquanto estuda na [Trybe](https://www.betrybe.com/) 🚀",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+{
+  "dependencies": {
+    "validator": "^13.9.0",
+    "vite": "^4.3.9"
+  }
+}
