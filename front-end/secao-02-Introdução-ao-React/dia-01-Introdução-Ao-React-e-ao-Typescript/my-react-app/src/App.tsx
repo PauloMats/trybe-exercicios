@@ -1,5 +1,6 @@
 import './App.css'
 import Title from './components/Title/Title'
+import ModuleDetais from './components/ModuleDetails/ModuleDetais'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       Work in progress
       <Title />
+      <ModuleDetais />
       </div>
   )
 }
